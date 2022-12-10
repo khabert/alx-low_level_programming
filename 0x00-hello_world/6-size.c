@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
-  * main - Entry Point
-  *
-  * Return: Always 0 (Success)
-  */
+*main - Entry Point
+* Return: Always 0 (Success)
+*/
 
 int main(void)
 {
@@ -14,6 +13,4 @@ int main(void)
 	printf(*Size of a long long int: %lu byte(s)\n", sizeof(long long int));
 	printf(*Size of a foat: %lu byte(s)\n", sizeof(float));
 	return (0);
-
-
 }
