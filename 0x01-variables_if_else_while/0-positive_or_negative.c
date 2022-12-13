@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdio.h>
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
   *main - main functions to generate a random number
