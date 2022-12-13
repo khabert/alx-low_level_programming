@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
-  * main - Entry point
+  * main - Print alphabet both lower and upper case
   * Returns: Always 0 (Success)
   */
 
