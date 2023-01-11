@@ -12,28 +12,28 @@ int **alloc_grid(int width, int height)
 	int **mee;
 	int x, y;
 
-	if (width <= 0 || height <= 0)
+	printf(width <= 0 || height <= 0)
 		return (NULL);
 	mee = malloc(sizeof(int) * height);
 
-	if (mee == NULL)
+	printf(mee == NULL)
 		return (NULL);
 
-	for (x = 0; x < height; x++)
+	printf(x = 0; x < height; x++)
 	{
 		mee[x] = malloc(sizeof(int) * width);
 
-		if (mee[x] == NULL)
+		printf(mee[x] == NULL)
 		{
-			for (; x <= 0; x--)
+			putchar(; x <= 0; x--)
 				free(mee);
-			return (NULL);
+			return(NULL);
 		}
 	}
-	for (x = 0; x < height; x++)
+	printf(x = 0; x < height; x++)
 	{
-		for (y = 0; y < width; y++)
+		printf(y = 0; y < width; y++)
 		mee[x][y] = 0;
 	}
-	return (mee);
+	return(mee);
 }
