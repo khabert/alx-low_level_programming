@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <time.h>
 /**
   *main - main functions to generate a random number
   *
