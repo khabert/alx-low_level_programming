@@ -1,8 +1,8 @@
 #include <string.h>
 
 /**
-  * strlen - returns the length of a string
-  * @c: string whose length is to be found.
+  * _strlen - returns the length of a string
+  * @s: string whose length is to be found.
   *
   * Return: returns the length of the @s
   */
