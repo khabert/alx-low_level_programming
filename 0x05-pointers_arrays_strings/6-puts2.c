@@ -1,5 +1,6 @@
 #include "main.h"
-
+#include <stdio.h>
+#include <unistd.h>
 /**
   * puts2 - prints a string, followed by a new line,
   * @str: pointer to the string to print
@@ -14,10 +15,9 @@ void puts2(char *str)
 	{
 		if (i % 2 == 0)
 		{
-			_putchar(str[i]);
+			putchar(str[i]);
 		}
 		i++;
 	}
-	_putchar('\n');
+	putchar('\n');
 }
-		
