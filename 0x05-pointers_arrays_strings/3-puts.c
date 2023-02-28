@@ -1,10 +1,12 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 
 /**
-  * _putchar - prints a string, followed by a new line, to stdout.
+  * _puts - prints a string, followed by a new line, to stdout.
   * @str: string to be printed
   *
-  *Return: nothing on success
+  * Return: returns a string
   */
 void _puts(char *str)
 {
@@ -12,9 +14,9 @@ void _puts(char *str)
 
 	while (str[i])
 	{
-		_putchar(str[i]);
+		putchar(str[i]);
 		i++;
 
 	}
-	_putchar('\n');
+	putchar('\n');
 }
